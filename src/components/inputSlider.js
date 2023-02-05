@@ -4,7 +4,7 @@ const InputSlider = ({ border, type, onBorder }) => {
   return (
     <div>
       <label>
-        Border {type} {border}
+        Border {type} {border} px
       </label>
       <input
         type="range"
