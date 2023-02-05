@@ -22,7 +22,10 @@
   width: 200px;
   padding: 20px;
   border-radius: 12px;
+  overflow-x: hidden;
+  overflow-y: scroll;
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 10px;
   background-color: white;
@@ -37,4 +40,13 @@ input[type='number'] {
     width: 75px;
     font-size: 20px;
     height: 30px;
+}
+
+.colorButton {
+  /* background: linear-gradient(90deg, #0acffe, #495aff); */
+  border: none;
+  color: white;
+  padding:8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
 }

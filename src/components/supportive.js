@@ -4,12 +4,27 @@ import "../styles/supportive.css";
 import ScripArea from "./scripArea";
 import InputDiv from "./inputDiv";
 import InputSlider from "./inputSlider";
+import InputColorPicker from "./inputColorPicker";
 
 const Supportive = () => {
   const [width, setWidth] = useState(100);
   const [height, setheight] = useState(100);
   const [borderRadius, setborderRadius] = useState(0);
   const [borderWidth, setborderWidth] = useState(0);
+  const [isPickForBorderColor, setisPickForBorderColor] = useState(false);
+  const [borderColor, setBorderColor] = useState("#EEA8B2FF");
+
+  const handleBorderColorChange = (newColor) => {
+    setBorderColor(newColor.hex);
+  };
+
+  const [isPickForBackgroundColor, setisPickForBackgroundColor] =
+    useState(false);
+  const [backgroundColor, setbackgroundColor] = useState("#B8E986");
+
+  const handleBackgroundColorChange = (newColor) => {
+    setbackgroundColor(newColor.hex);
+  };
 
   return (
     <div className="main_body">
@@ -32,8 +47,29 @@ const Supportive = () => {
             type="Width"
             onBorder={(e) => setborderWidth(e.target.value)}
           />
+          <InputColorPicker
+            color={borderColor}
+            isPickForColor={isPickForBorderColor}
+            type="Border"
+            handleColorChange={handleBorderColorChange}
+            setisPickForColor={setisPickForBorderColor}
+          />
+          <InputColorPicker
+            color={backgroundColor}
+            isPickForColor={isPickForBackgroundColor}
+            type="Background"
+            handleColorChange={handleBackgroundColorChange}
+            setisPickForColor={setisPickForBackgroundColor}
+          />
         </div>
-        <ScripArea />
+        <ScripArea
+          width={width}
+          height={height}
+          backgroundColor={backgroundColor}
+          borderWidth={borderWidth}
+          borderRadius={borderRadius}
+          borderColor={borderColor}
+        />
         <div className="right_button_box">vfadvsd</div>
       </div>
     </div>
