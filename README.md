@@ -1,4 +1,4 @@
-# IdealPlace.com
+# CSSWIZARDS.com
 
 Hello World! We would like to introduce you to our product csswizard.com which a web app that helps to learn css by doing, it has a lot of buttons where you can practise css and see the live changes.
 
