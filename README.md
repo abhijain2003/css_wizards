@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# IdealPlace.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello World! We would like to introduce you to our product csswizard.com which a web app that helps to learn css by doing, it has a lot of buttons where you can practise css and see the live changes.
 
-## Available Scripts
+## 💡 Inspiration
 
-In the project directory, you can run:
+- Helping other in understanding hard css topics.
+- make css fun for them.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ How we built it
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Frontend: React JS, css html css
+- GitHub: Collaboration, Hosting and Deployment
+- Tools: Git
 
-### `npm test`
+## 🤝 Most Creative Use of GitHub
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- When using GitHub we implemented the **CI/CD workflow** and made the deployment process easy. It helped us to get the project deployed on the network to be accessed by other people.
+- **Deploying** the project on GitHub helped us to get the project deployed on the network to be accessed by other people.
+- We are using GitHub for **Collaboration**. GitHub makes it easy to share code with others and helps a lot in collaboration. GitHub makes it easy to set up a project and get started.
+- We also used GitHub for planning and keeping track of our project and its progress with the help of the **GitHub project** management tool.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧠 Challenges we ran into
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- The biggest challenge was the differece in time zones. But we collaborated and made the project complete in given time frame.
+- Another challange was to Collect quality data on Internet about successful Peoples.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🏅 Accomplishments that we're proud of
 
-### `npm run eject`
+- Completing the Project in such a short time frame.
+- Creating a website that is easy to use, looks great, and can help someone learn
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📖 What we learned
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Making Presentation.
+- Deploying web app on GitHub Pages.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 What's next for LearnEasy
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Building a mobile app
+- Adding more features include todo list with filters of daily/weekly/monthly for user to track his progress.
+- Adding more css features.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- MVP website https://css-wizards.vercel.app/
